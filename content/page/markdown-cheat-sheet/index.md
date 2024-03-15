@@ -1,10 +1,18 @@
 ---
 title: "Markdown Cheat Sheet Ⓜ️⬇️"
 description: "An overview of basic markdown syntax."
-draft: false
+draft: true
 tags: ["Featured"]
 images: ["markdown-guide-og.jpg"]
-keywords: ["markdown cheat sheet","markdown","cheat sheet", "markdown cheatsheet", "hugo markdown cheat sheet", "goldmark"]
+keywords:
+  [
+    "markdown cheat sheet",
+    "markdown",
+    "cheat sheet",
+    "markdown cheatsheet",
+    "hugo markdown cheat sheet",
+    "goldmark",
+  ]
 aliases:
   - blog/my-third-blog-post
 ---
@@ -31,6 +39,7 @@ You can refer to the table below for an overview of basic markdown syntax:
 | Unordered list | `* List item`                    |
 | Ordered list   | `1. List item`                   |
 | Inline Code    | <code>\`insert code here\`<code> |
+
 {.table .table-sm .table-striped .table-hover}
 
 ---
@@ -39,10 +48,15 @@ You can refer to the table below for an overview of basic markdown syntax:
 
 ```markdown
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
+
 ##### Heading 5
+
 ###### Heading 6
 ```
 
@@ -63,9 +77,9 @@ You can refer to the table below for an overview of basic markdown syntax:
 ## Lists
 
 ```markdown
-* Unordered item
-* Unordered item
-* Unordered item
+- Unordered item
+- Unordered item
+- Unordered item
 
 1. Ordered item
 2. Ordered item
@@ -76,9 +90,9 @@ You can refer to the table below for an overview of basic markdown syntax:
 - [ ] Task item
 ```
 
-* Unordered item
-* Unordered item
-* Unordered item
+- Unordered item
+- Unordered item
+- Unordered item
 
 1. Ordered item
 2. Ordered item
@@ -95,7 +109,7 @@ You can refer to the table below for an overview of basic markdown syntax:
 ```markdown
 **Bold**
 
-*Italic*
+_Italic_
 
 <u>Underline</u>
 
@@ -117,7 +131,7 @@ You can refer to the table below for an overview of basic markdown syntax:
 
 **Bold**
 
-*Italic*
+_Italic_
 
 <u>Underline</u>
 
@@ -159,20 +173,20 @@ You can refer to the table below for an overview of basic markdown syntax:
 ```markdown
 > Blockquote  
 > Second line
-> 
->  -- Author
+>
+> -- Author
 ```
 
 > Blockquote  
 > Second line
-> 
->  -- Author
+>
+> -- Author
 
 ---
 
 ## Code Block
 
-`````
+````
 ```go
 package main
 
@@ -182,7 +196,7 @@ func main() {
     fmt.Println("hello world")
 }
 ```
-`````
+````
 
 ```go
 package main
