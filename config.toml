@@ -1,5 +1,5 @@
 author = "Sanya Shetty"
-baseURL = 'nutrisense.college'
+baseURL = 'http://nutrisense.college'
 copyright = "Sanya Shetty"
 title = "NutriScale"
 
